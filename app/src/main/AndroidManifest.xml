@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khoderisasi.modul2kelompok22">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_tugas"
+        android:label="Kelompok 22"
+        android:roundIcon="@mipmap/ic_launcher_tugasround"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Splash screen -->
+
+        <activity
+            android:name=".Splashscreen"
+            android:label="Kelompok 22"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".EmailActivity" />
+        <activity android:name=".AboutActivity">
+
+        </activity>
+    </application>
+
+</manifest>
